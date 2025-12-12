@@ -1,0 +1,90 @@
+.body{
+   text-align: center;
+}
+.Home{
+   background-color:rgb(76, 224, 244);
+   margin-top: 8px;
+}
+.img{
+   padding: 5px;
+   border: #ed0808;
+   width:350px;
+   height:360px;
+}
+
+ .container{
+        background-color:rgb(255, 255, 230);
+        text-align: center;
+        margin-top: 10px;     
+    }
+ .card:hover
+   .nav{
+        font-style: oblique;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+   .img{
+        width:250px;
+        height: 250px;
+        border-image:10px;
+    
+     }
+   .card:hover{
+        transform:translatex(9px);
+        border: #64e6f7;
+     }
+   .card{
+        border:#64e6f7;
+        transition: transform 0.3sease;
+
+     }
+   .section-title{
+        font-size:2.5rem;
+        margin-bottom: 2rem;
+        position: relative;
+        padding-top:1rem;
+        color:#333;
+     }
+    .section-title::after{
+        content:"";
+        position:absolute;
+        top:66px;
+        left:50%;
+        transform:translateX(-50%);
+        width:50px;
+        height:5px;
+        background:rgb(16, 6, 213);
+     }
+     @media(max-width:768px){
+      .home-page{
+         text-align: center;
+         padding:80px 0 50px 0;
+      }
+      .profile-img{
+         width:250px;
+         height:250px;
+         margin-top:2rem;
+      }
+      .section-title{
+         font-size:2rem;
+      }
+     }
+
+
+     @media(max-width:576px){
+   body{
+      padding-top: 65px;
+   }
+   .home-page{
+      margin-top: -40px;
+      padding-top: 80px;
+   }
+   .btn{
+      font-size:1.2rem;
+      padding:0.5rem 1rem;
+      margin-bottom:0.5rem;
+   }
+ }    
+     
+     
+     
+     
